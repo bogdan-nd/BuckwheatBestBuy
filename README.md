@@ -1,6 +1,8 @@
 ## Link to Heroku
 https://calm-peak-96829.herokuapp.com/
 
+Extra facts: in free plan at Heroku number of requests is limited to 50 per 60 minutes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
