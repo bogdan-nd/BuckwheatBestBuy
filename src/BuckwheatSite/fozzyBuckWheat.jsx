@@ -7,7 +7,7 @@ const request = require("request-promise");
 const fozzy = async () => {
 
     const options = {
-        uri: "https://fozzyshop.ua/ru/300143-krupa-grechnevaya",
+        uri: "https://cors-anywhere.herokuapp.com/fozzyshop.ua/ru/300143-krupa-grechnevaya",
         transform: function(body) {
           return cheerio.load(body);
         }

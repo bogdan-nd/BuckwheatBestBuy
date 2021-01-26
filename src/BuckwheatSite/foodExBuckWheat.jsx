@@ -6,7 +6,7 @@ const request = require("request-promise");
 
 const foodex = async () => {
     const options = {
-        uri: "https://foodex24.com/category/grechnevaya-krupa",
+        uri: "https://cors-anywhere.herokuapp.com/foodex24.com/category/grechnevaya-krupa",
         transform: function(body) {
           return cheerio.load(body);
         }

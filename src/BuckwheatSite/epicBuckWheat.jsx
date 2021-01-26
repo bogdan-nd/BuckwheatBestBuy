@@ -6,7 +6,7 @@ const request = require("request-promise");
 
 const epic = async () => {
     const options = {
-        uri: "https://epicentrk.ua/ua/shop/krupy-i-makaronnye-izdeliya/fs/vid-krupa-grechnevaya/",
+        uri: "https://cors-anywhere.herokuapp.com/epicentrk.ua/ua/shop/krupy-i-makaronnye-izdeliya/fs/vid-krupa-grechnevaya/",
         transform: function(body) {
           return cheerio.load(body);
         }
